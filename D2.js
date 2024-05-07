@@ -146,7 +146,7 @@ if (even === 0) {
 */
 
 console.log("ESERCIZIO 10");
-let val = 11;
+let val = 3;
 if (val < 5) {
   console.log("Meno di 5");
 } else if (val < 10) {
@@ -184,6 +184,7 @@ console.log(me);
 console.log("ESERCIZIO 13");
 let len = me.skills.length;
 delete me.skills[len - 1];
+// si potrebbe utilizzare anche me.skills.pop()
 console.log(me);
 
 /* ESERCIZIO 14
